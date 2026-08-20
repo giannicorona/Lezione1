@@ -1,5 +1,7 @@
 # AGENTS.md
 
+**Autore:** Gianni Corona
+
 ## Scopo
 
 Questo file definisce le regole operative per gli agenti AI che lavorano su questo repository.
@@ -17,6 +19,7 @@ Le istruzioni valgono per l'intero progetto, salvo la presenza di un `AGENTS.md`
 
 ## Struttura e convenzioni del codice
 
+- Ogni file sorgente o documento mantenuto nel repository deve riportare chiaramente l'autore `Gianni Corona`. La regola si applica almeno a file `.py`, `.md`, `.sh`, `.bat`, `.ps1`, file di configurazione testuali e altri sorgenti o documenti equivalenti. Usare il formato di commento o metadato appropriato al tipo di file, senza compromettere la sintassi.
 - Usare nomi chiari e descrittivi per file, funzioni, variabili e classi.
 - Per Python seguire PEP 8, salvo convenzioni locali piu specifiche.
 - Preferire codice semplice e leggibile rispetto a soluzioni eccessivamente astratte.

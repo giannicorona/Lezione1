@@ -1,0 +1,27 @@
+# Author: Gianni Corona
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lezione1"
+dynamic = ["version"]
+description = "Progetto didattico Python Lezione1"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Gianni Corona" },
+]
+
+[project.scripts]
+lezione1 = "lezione1.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = { attr = "lezione1.version.__version__" }

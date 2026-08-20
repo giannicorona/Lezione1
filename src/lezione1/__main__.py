@@ -1,7 +1,9 @@
-"""Entry point principale del progetto Lezione1."""
+"""Entry point principale del progetto Lezione1.
 
-__author__ = "Gianni"
-__version__ = "0.1.0"
+Author: Gianni Corona
+"""
+
+from . import __author__, __version__
 
 
 def main() -> None:
