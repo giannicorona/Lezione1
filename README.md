@@ -41,3 +41,17 @@ lezione1
 ```bash
 PYTHONPATH=src python -m unittest discover -s tests
 ```
+
+## Avvio rapido
+
+Windows:
+
+```bat
+run-windows.bat
+```
+
+Linux:
+
+```bash
+./run-linux.sh
+```
